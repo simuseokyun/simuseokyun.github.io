@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.css"
+      integrity="sha512-rVfXYRlhHtd3C4PzoBxSaKhI/uYEi0/5K69RwK/cdxQld57PC6mZ7tkutR+KD96WrXZ6E/96qYeY4CVun7a0/w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>심플릭스</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="header_wrap">
+          <ul class="left_header">
+            <li>홈</li>
+            <li>카테고리</li>
+            <li>드라마</li>
+            <li>영화</li>
+          </ul>
+          <div class="logo" >
+            <a href="http://127.0.0.1:5500/index.html"><img src="./images/logo.png" alt="SIMFLIX" /></a>
+          </div>
+          <ul class="right_header">
+            <li>
+              <i class="fa-solid fa-magnifying-glass search_button"></i>
+              <input
+                type="search"
+                placeholder="제목을 입력하세요"
+                class="search"
+              />
+            </li>
+            <li><i class="fa-regular fa-bell"></i></li>
+            <li><i class="fa-solid fa-circle-user"></i></li>
+          </ul>
+        </div>
+      </div>
+      <div style="padding: 1px"></div>
+      <div class="search_background">
+        <div class="inner">
+          <div class="search_category">
+            <div class="category_list">
+              <i class="fa-solid fa-tv"></i>
+              <h4>시리즈</h4>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="category_list">
+              <i class="fa-solid fa-video"></i>
+              <h4>영화</h4>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="category_list">
+              <i class="fa-solid fa-face-smile"></i>
+              <h4>예능</h4>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="content_wrap swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="slide swiper-slide">
+              <div class="slide_content">
+                <h4>미나리</h4>
+                <p>낯선 땅에 뿌린 희망</p>
+              </div>
+              <button class="slide_button">상세 정보</button>
+            </div>
+            <div class="slide swiper-slide">
+              <div class="slide_content">
+                <h4>폴라</h4>
+                <p>킬러에서 표적이 된다.</p>
+              </div>
+              <button class="slide_button">상세 정보</button>
+            </div>
+            <div class="slide swiper-slide">
+              <div class="slide_content">
+                <h4 class="skewX">분노의 질주</h4>
+                <p>오리지널 멤버의 액션 본능이 폭발한다!</p>
+              </div>
+              <button class="slide_button">상세 정보</button>
+            </div>
+            <div class="slide swiper-slide">
+              <div class="slide_content">
+                <h4>장고 : 분노의 추적자</h4>
+                <p>복수의 끝에서 놈을 만났다.</p>
+              </div>
+              <button class="slide_button">상세 정보</button>
+            </div>
+            <div class="slide swiper-slide">
+              <div class="slide_content">
+                <h4>프레스티지</h4>
+                <p>당신의 눈을 믿지마라.</p>
+              </div>
+              <button class="slide_button">상세 정보</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content_second">
+        <div class="inner">
+          <h4>심플릭스 추천작</h4>
+          <div class="recom_wrap">
+            <div class="recom_content">
+              <div class="recom_content2">
+                <div class="recom_list">
+                  <img src="./images/recom_content1.webp" alt="" />
+                </div>
+                <div class="recom_list">
+                  <img src="./images/recom_content2.webp" alt="" />
+                </div>
+                <div class="recom_list">
+                  <img src="./images/recom_content3.jpeg" alt="" />
+                </div>
+                <div class="recom_list">
+                  <img src="./images/recom_content4.webp" alt="" />
+                </div>
+                <div class="recom_list">
+                  <img src="./images/recom_content5.jpeg" alt="" />
+                </div>
+              </div>
+              <div class="recom_content2">
+                <div class="recom_list">
+                  <img src="./images/recom_content6.jpeg" alt="" />
+                </div>
+                <div class="recom_list">
+                  <img src="./images/recom_content7.webp" alt="" />
+                </div>
+                <div class="recom_list">
+                  <img src="./images/recom_content8.jpeg" alt="" />
+                </div>
+                <div class="recom_list">
+                  <img src="./images/recom_content9.jpeg" alt="" />
+                </div>
+                <div class="recom_list">
+                  <img src="./images/recom_content10.jpeg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="left_button">
+              <i class="fa-solid fa-chevron-left"></i>
+            </div>
+            <div class="right_button">
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+        </div>
+        <div class="content_second">
+          <div class="inner">
+            <h4>실시간 인기 콘텐츠</h4>
+            <div class="recom_wrap">
+              <div class="recom_content">
+                <div class="recom_content2">
+                  <div class="recom_list">
+                    <img src="./images/recom_content11.jpeg" alt="" />
+                  </div>
+                  <div class="recom_list">
+                    <img src="./images/recom_content12.jpeg" alt="" />
+                  </div>
+                  <div class="recom_list">
+                    <img src="./images/recom_content13.jpeg" alt="" />
+                  </div>
+                  <div class="recom_list">
+                    <img src="./images/recom_content14.jpeg" alt="" />
+                  </div>
+                  <div class="recom_list">
+                    <img src="./images/recom_content15.jpeg" alt="" />
+                  </div>
+                </div>
+                <div class="recom_content2">
+                  <div class="recom_list">
+                    <img src="./images/recom_content16.jpeg" alt="" />
+                  </div>
+                  <div class="recom_list">
+                    <img src="./images/recom_content17.jpeg" alt="" />
+                  </div>
+                  <div class="recom_list">
+                    <img src="./images/recom_content18.jpeg" alt="" />
+                  </div>
+                  <div class="recom_list">
+                    <img src="./images/recom_content19.jpg" alt="" />
+                  </div>
+                  <div class="recom_list">
+                    <img src="./images/recom_content20.jpeg" alt="" />
+                  </div>
+                </div>
+                
+              </div>
+              <div class="left_button">
+                <i class="fa-solid fa-chevron-left"></i>
+              </div>
+              <div class="right_button">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="content_second">
+            <div class="inner">
+              <h4>지금 뜨는 콘텐츠</h4>
+              <div class="recom_wrap">
+                <div class="recom_content">
+                  <div class="recom_content2">
+                    <div class="recom_list">
+                      <img src="./images/recom_content8.jpeg" alt="" />
+                    </div>
+                    <div class="recom_list">
+                      <img src="./images/recom_content18.jpeg" alt="" />
+                    </div>
+                    <div class="recom_list">
+                      <img src="./images/recom_content2.webp" alt="" />
+                    </div>
+                    <div class="recom_list">
+                      <img src="./images/recom_content34.jpeg" alt="" />
+                    </div>
+                    <div class="recom_list">
+                      <img src="./images/recom_content14.jpeg" alt="" />
+                    </div>
+                  </div>
+                  <div class="recom_content2">
+                    <div class="recom_list">
+                      <img src="./images/recom_content4.webp" alt="" />
+                    </div>
+                    <div class="recom_list">
+                      <img src="./images/recom_content34.jpeg" alt="" />
+                    </div>
+                    <div class="recom_list">
+                      <img src="./images/recom_content20.jpeg" alt="" />
+                    </div>
+                    <div class="recom_list">
+                      <img src="./images/recom_content17.jpeg" alt="" />
+                    </div>
+                    <div class="recom_list">
+                      <img src="./images/recom_content40.jpeg" alt="" />
+                    </div>
+                  </div>
+                  
+                </div>
+                <div class="left_button">
+                  <i class="fa-solid fa-chevron-left"></i>
+                </div>
+                <div class="right_button">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </div>
+              </div>
+            </div>
+            <div class="content_second">
+              <div class="inner">
+                <h4>인기 예능</h4>
+                <div class="recom_wrap">
+                  <div class="recom_content">
+                    <div class="recom_content2">
+                      <div class="recom_list">
+                        <img src="./images/recom_content31.jpeg" alt="" />
+                      </div>
+                      <div class="recom_list">
+                        <img src="./images/recom_content32.jpeg" alt="" />
+                      </div>
+                      <div class="recom_list">
+                        <img src="./images/recom_content33.jpeg" alt="" />
+                      </div>
+                      <div class="recom_list">
+                        <img src="./images/recom_content34.jpeg" alt="" />
+                      </div>
+                      <div class="recom_list">
+                        <img src="./images/recom_content35.jpg" alt="" />
+                      </div>
+                    </div>
+                    <div class="recom_content2">
+                      <div class="recom_list">
+                        <img src="./images/recom_content36.jpeg" alt="" />
+                      </div>
+                      <div class="recom_list">
+                        <img src="./images/recom_content37.jpeg" alt="" />
+                      </div>
+                      <div class="recom_list">
+                        <img src="./images/recom_content38.jpeg" alt="" />
+                      </div>
+                      <div class="recom_list">
+                        <img src="./images/recom_content39.jpeg" alt="" />
+                      </div>
+                      <div class="recom_list">
+                        <img src="./images/recom_content40.jpeg" alt="" />
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <div class="left_button">
+                    <i class="fa-solid fa-chevron-left"></i>
+                  </div>
+                  <div class="right_button">
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+                </div>
+              </div>
+        <div class="footer"></div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
