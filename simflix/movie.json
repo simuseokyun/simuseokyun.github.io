@@ -1,0 +1,123 @@
+{
+  "movie": [
+    {
+      "id": 0,
+      "title": "귀멸의 칼날",
+      "photo": "./images/recom_content1.webp"
+    },
+    {
+      "id": 1,
+      "title": "소울 메이트",
+      "photo": "./images/recom_content2.webp"
+    },
+    {
+      "id": 2,
+      "title": "너의 이름은",
+      "photo": "./images/recom_content3.jpeg"
+    },
+
+    { "id": 3, "title": "범죄 도시3", "photo": "./images/recom_content4.webp" },
+    { "id": 4, "title": "매드 맥스", "photo": "./images/recom_content5.jpeg" },
+    {
+      "id": 5,
+      "title": "어바웃 타임",
+      "photo": "./images/recom_content6.jpeg"
+    },
+    {
+      "id": 6,
+      "title": "탑건 매버릭",
+      "photo": "./images/recom_content7.webp"
+    },
+    {
+      "id": 7,
+      "title": "죽은 시인의 사회",
+      "photo": "./images/recom_content8.jpeg"
+    },
+    { "id": 8, "title": "기생충", "photo": "./images/recom_content9.jpeg" },
+    {
+      "id": 9,
+      "title": "이태원 클라쓰",
+      "photo": "./images/recom_content10.jpeg"
+    },
+    {
+      "id": 10,
+      "title": "나이브스 아웃",
+      "photo": "./images/recom_content11.jpeg"
+    },
+    {
+      "id": 11,
+      "title": "카지노",
+      "photo": "./images/recom_content12.jpeg"
+    },
+    {
+      "id": 12,
+      "title": "나는 솔로",
+      "photo": "./images/recom_content13.jpeg"
+    },
+    {
+      "id": 13,
+      "title": "명량",
+      "photo": "./images/recom_content14.jpeg"
+    },
+    {
+      "id": 14,
+      "title": "아바타",
+      "photo": "./images/recom_content15.jpeg"
+    },
+    {
+      "id": 15,
+      "title": "마약왕",
+      "photo": "./images/recom_content16.jpeg"
+    },
+    {
+      "id": 16,
+      "title": "돈",
+      "photo": "./images/recom_content17.jpeg"
+    },
+    {
+      "id": 17,
+      "title": "피의 게임",
+      "photo": "./images/recom_content18.jpeg"
+    },
+    {
+      "id": 18,
+      "title": "더 지니어스",
+      "photo": "./images/recom_content19.jpg"
+    },
+    {
+      "id": 19,
+      "title": "이상한 변호사 우영우",
+      "photo": "./images/recom_content20.jpeg"
+    },
+    {
+      "id": 20,
+      "title": "미나리",
+      "photo": "./images/미나리.jpeg",
+      "content": "미나리는 어디서든 잘 자라, 낯선 미국, 아칸소로 떠나온 한국 가족. 가족들에게 뭔가 해내는 걸 보여주고 싶은 아빠 '제이콥'(스티븐 연)은 자신만의 농장을 가꾸기 시작하고 엄마 '모니카'(한예리)도 다시 일자리를 찾는다. 아직 어린 아이들을 위해 ‘모니카’의 엄마 ‘순자’(윤여정)가 함께 살기로 하고 가방 가득 고춧가루, 멸치, 한약 그리고 미나리씨를 담은 할머니가 도착한다. 의젓한 큰딸 '앤'(노엘 케이트 조)과 장난꾸러기 막내아들 '데이빗'(앨런 김)은 여느 그랜마같지 않은 할머니가 영- 못마땅한데… 함께 있다면, 새로 시작할 수 있다는 희망으로 하루하루 뿌리 내리며 살아가는 어느 가족의 아주 특별한 여정이 시작된다!"
+    },
+    {
+      "id": 21,
+      "title": "폴라",
+      "photo": "./images/폴라.jpeg",
+      "content": "최고의 청부 살인자 덩컨. 은퇴를 준비하던 그는 막대한 퇴직금을 눈앞에 두고 음모에 말려든다. 잔혹한 킬러 군단과의 대결, 마지막 살인 게임의 방아쇠가 당겨졌다."
+    },
+    {
+      "id": 22,
+      "title": "분노의 질주",
+      "photo": "./images/분노의질주.jpeg",
+      "content": "돔(빈 디젤)과 그의 패밀리 앞에 나타난 운명의 적 단테(제이슨 모모아). 과거의 그림자는 돔의 모든 것을 파괴하기 위해 달려온다. 단테에 의해 산산히 흩어진 패밀리들은 모두 목숨을 걸고 맞서야 하는 함정에 빠지고 마는데.. 달리거나 죽거나, 그들의 마지막 질주가 시작된다!"
+    },
+    {
+      "id": 23,
+      "title": "장고 : 분노의 추적자",
+      "photo": "./images/장고.jpeg",
+      "content": "아내를 구해야 하는 분노의 로맨티스트 ‘장고’ 그를 돕는 정의의 바운티 헌터 ‘닥터 킹’ 그들의 표적이 된 욕망의 마스터 ‘캔디’ 복수의 사슬이 풀리면, 세 남자의 피도 눈물도 없는 대결이 시작된다! 와일드 액션 로맨스, <장고:분노의 추적자>!"
+    },
+    {
+      "id": 24,
+      "title": "프레스티지",
+      "photo": "./images/프레스티지.jpeg",
+      "content": "​마술사를 꿈꾸는 루퍼트와 알프레드는 친구이자 라이벌이다. 마술을 하다가 알프레드의 실수로 조수이자 루퍼트의 아내인 줄리아가 죽는 사건이 있고 장례식장에서 루퍼트는 알프레드에게 무슨 매듭을 썼냐고 물어 바도 알프레드는 기억이 나지 않는다 말한다. 이후로도 알프레드는 죄책감 없이 아내와 행복하게 살면서 루퍼트의 질문에는 모르쇠로 일관한다. 둘은 갈라서고 알프레드의 마술쇼에서 루퍼트가 훼방놓고 아내에게 부상을 입혀 그의 마술쇼를 망치고 둘은 틀어진다. 둘은 서로의 마술쇼를 망치려 하고 결국 알프레드는 손가락을 잃고 루퍼트는 다리를 절게 된다."
+    }
+  ]
+}
