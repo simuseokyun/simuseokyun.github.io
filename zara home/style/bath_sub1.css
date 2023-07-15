@@ -1,0 +1,189 @@
+@charset "utf-8";
+@import url(./all.css);
+
+html{
+    --color:#46634B;
+    font-size: 14px;
+}
+
+body{
+    color: #494949;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: 'Noto Sans KR', sans-serif, 'Gulzar', serif;
+}
+
+#contents .sec2,
+#contents .sec3,
+#contents .sec4{
+    padding: 0 20px;
+}
+
+/* sec1 */
+#contents .top_menu_box{
+    padding-left: 20px;
+}
+
+#contents .sec1 h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: #2b2b2b;
+    margin: 15px 0;
+    text-align: center;
+}
+#contents .sec1 .top_menu_list{
+    margin-bottom: 20px;
+}
+#contents .sec1 .top_menu_list p{
+    text-align: center;
+    margin-top: 3px;
+}
+#contents .sec1 .top_menu_list li img{
+    width: 65px;
+    height: 65px;
+}
+
+#contents .sec1 .swiper-scrollbar-drag{
+    background: rgba(70,99,75,0.6);
+}
+
+/* sec2 */
+.sec2{
+    display: flex;
+    position: relative;
+    background: #B5C0B7;
+    height: 80px;
+}
+.sec2 .view_menu{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 30px;
+    width: 105px;
+    background: #ececec;
+    line-height: 28px;
+    text-indent: 6px;
+    border-radius: 3px;
+}
+
+.sec2 .view_menu select{
+    width: 105px;
+    background: url(../images/bath_sub1/down_arrow.svg) no-repeat 83% 50%;
+}
+.sec2 .array_btn{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.sec2 .array_btn>div{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 25px;
+    background: #ececec;
+    border-radius: 3px;
+}
+.sec2 .array_btn .line_1{
+    margin-right: 7px;
+}
+#view{
+    appearance: none;
+
+}
+
+/* sec3 */
+.sec3{
+    margin-top: 30px;
+}
+.sec3 .item_list{
+    display: flex;
+}
+
+.sec3 .item_list li{
+    margin-right: 20px;
+    height: 230px;
+    margin-bottom: 20px;
+}
+.sec3 .item_list li:last-child{
+    margin-right: 0;
+}
+
+.sec3 .item_list .item_box .img_box{
+    position: relative;
+}
+.sec3 .item_list .item_box .img_box .heart{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: rgba(114, 114, 114, 0.5);
+    z-index: 100;
+}
+
+
+.sec3 .item_list .item_box .img_box .heart.on{
+    color: rgba(255, 83, 83, 0.7);
+}
+
+.sec3 .item_box .txt_box .tit{
+    margin-bottom: 4px !important;
+}
+.sec3 .item_box .txt_box .price{
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.sec3 .item_box .txt_box .color_list{
+    display: flex;
+}
+.sec3 .item_box .txt_box .color_list .color{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 0.1px solid #494949;
+    margin-right: 5px;
+}
+
+.sec3 .item_box .txt_box .color_list .white{
+    background: #fff;
+}
+.sec3 .item_box .txt_box .color_list .beige{
+    background: #ECDCC5;
+}
+.sec3 .item_box .txt_box .color_list .green{
+    background: #9AA28B;
+}
+.sec3 .item_box .txt_box .color_list .blue{
+    background: #C2DAEF;
+}
+.sec3 .item_box .txt_box .color_list .navy{
+    background: #262B3B;
+}
+
+/* sec4_페이지 */
+.sec4{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.sec4 .page_list .num{
+    width: 25px;
+    height: 25px;
+    line-height: 23px;
+    border-radius: 50%;
+    border: 0.3px solid #D4D4D4;
+    margin: 0 2px;
+    color: #2b2b2b;
+}
+.sec4 .page_list a i{
+    color: var(--color);
+    font-weight: 700;
+    width: 20px;
+    height: 20px;
+}
+.sec4 .page_list .active{
+    background: var(--color);
+    color: #fff;
+}
