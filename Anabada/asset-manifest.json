@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "./static/css/main.e49fe180.css",
+    "main.js": "./static/js/main.173bf2ee.js",
+    "static/js/787.3d1ab054.chunk.js": "./static/js/787.3d1ab054.chunk.js",
+    "static/media/bg.jpeg": "./static/media/bg.d5753f3b5e3c17af13c8.jpeg",
+    "static/media/yezzy.webp": "./static/media/yezzy.00e8e585bbe4dd3617f9.webp",
+    "static/media/matt.webp": "./static/media/matt.ba6dfdd60cfee7b44c98.webp",
+    "static/media/adidas.webp": "./static/media/adidas.997f9dc1de4cca03acb7.webp",
+    "static/media/아디다스클로그.webp": "./static/media/아디다스클로그.997f9dc1de4cca03acb7.webp",
+    "static/media/이지.webp": "./static/media/이지.ea409446929946bf568e.webp",
+    "static/media/우포스.webp": "./static/media/우포스.868039fc240cd06845df.webp",
+    "static/media/logo.svg": "./static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "./index.html",
+    "main.e49fe180.css.map": "./static/css/main.e49fe180.css.map",
+    "main.173bf2ee.js.map": "./static/js/main.173bf2ee.js.map",
+    "787.3d1ab054.chunk.js.map": "./static/js/787.3d1ab054.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e49fe180.css",
+    "static/js/main.173bf2ee.js"
+  ]
+}
