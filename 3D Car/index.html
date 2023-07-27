@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <title>3D Car</title>
+  </head>
+  <body>
+    <div class="bg">
+      <canvas id="canvas" width="500" height="500"></canvas>
+
+      <div></div>
+    </div>
+    <script src="/main.js"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.141.0/build/three.module.js",
+          "GLTFLoader": "https://unpkg.com/three@0.141.0/examples/jsm/loaders/GLTFLoader.js"
+        }
+      }
+    </script>
+    <script type="module">
+      import * as THREE from "three";
+      import { GLTFLoader } from "GLTFLoader";
+
+      //   처음 홈페이지에 접속했을 때 나타나는 화면
+      let renderer = new THREE.WebGLRenderer({
+        canvas: document.querySelector("#canvas"),
+        antialias: true,
+      });
+      //   캔버스 랜더링 끝
+
+      // 장면 생성
+      let scene = new THREE.Scene();
+      renderer.outputEncoding = THREE.sRGBEncoding;
+
+      scene.background = new THREE.Color("#ebece4");
+
+      //   조명 생성
+      let light = new THREE.DirectionalLight(0xffffff, 10);
+      light.position.set(0, 1, 10);
+      light.castShadow = true;
+      scene.add(light);
+      let camera = new THREE.PerspectiveCamera(30, 1);
+      camera.position.set(0, 1, 11);
+      let loader = new GLTFLoader();
+      loader.load("car1/scene.gltf", function (gltf) {
+        scene.add(gltf.scene);
+        renderer.render(scene, camera);
+
+        // 회전하는 함수 생성
+        function animate() {
+          requestAnimationFrame(animate);
+          gltf.scene.rotation.y += 0.01;
+          renderer.render(scene, camera);
+        }
+        animate();
+      });
+    </script>
+    <script></script>
+  </body>
+</html>
