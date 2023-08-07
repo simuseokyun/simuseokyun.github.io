@@ -1,0 +1,22 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&display=swap');
+@import url(./all.css);
+
+.log_page{padding:0 20px;}
+.log_page h2{font-size: 25px; text-align: center; margin:30px 0 20px;; font-weight: 400;}
+.log_area .txt{width:100%; position: relative; height:45px; border:1px solid #dadada; border-radius: 3px; line-height: 45px;margin-bottom: 15px;}
+input, button{width:75%; height:45px;}
+.log_area li:last-child{margin-bottom: 0;}
+.type{margin-bottom: 25px;}
+.btn{text-align: center;}
+input{ padding-left: 10px; box-sizing: border-box;}
+button{ height:45px; line-height: 45px; font-size: 17px;}
+#log_btn{background: #46634B; color:#fff; width:100%; border:0; height:100%; border-radius: 3px; margin-bottom: 10px;}
+#join_btn{border: 1px solid #dadada; border-radius: 3px; width: 100%; height: 100%; margin-bottom: 5px;}
+.type .eye{background: url(../images/login/eye.svg) no-repeat 95% 50%;}
+.find_area{display: flex; margin-bottom: 23px;}
+.find_area li{background: url(../images/login/go.svg) no-repeat 100% 40%; padding-right:12px; margin-right: 15px;}
+.social{display: flex; justify-content: space-between; text-align: center;}
+.social li{border:1px solid #dadada; border-radius: 3px; width:46%; height:35px; line-height: 35px;}
+.social img{vertical-align: middle;}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, user-scale=no">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./style/search.css" type="text/css">
+    <title>ZARA HOME</title>
+</head>
+<body>
+    <header id="header">
+        <div class="header_in">
+            <h1 class="logo">
+                <a href="./index.html">
+                    <img src="./images/common/logo.svg" alt="zara home">
+                </a>
+            </h1>
+            <div class="right_menu_area">
+                <ul class="right_menu">
+                    <li class>
+                        <a href="./login.html" class="login_link">
+                            <img src="./images/common/login.svg" alt="로그인">
+                        </a>
+                    </li>
+                    <li class>
+                        <a href="#" class="shopping_link">
+                            <img src="./images/common/shopping.svg" alt="장바구니">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- right_menu END -->
+        </div>
+    </header>
+    <main id="contents">
+        <section class="sec1">
+            <div class="search_area">
+                <div class="txt">
+                    <input type="search" placeholder="무엇을 찾으세요?">
+                </div>
+                <div class="s_btn">
+                    <button type="button">
+                        <span class="blind">검색</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="sec2">
+            <div class="tab_search">
+                <div class="tab_btn">
+                    <a href="#" class="tab_btn_popular">인기검색어</a>
+                    <a href="#" class="tab_btn_recent">최근검색어</a>
+                </div>
+                <ul class="tab_list">
+                    <li>
+                        <ul class="popular_sub">
+                            <li><a href="#">1. 침구</a></li>
+                            <li><a href="#">2. 식기</a></li>
+                            <li><a href="#">3. 커트러리</a></li>
+                            <li><a href="#">4. 러그</a></li>
+                            <li><a href="#">5. 머그컵</a></li>
+                            <li><a href="#">6. 펫방석</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="recent_sub">
+                            <div class="recent_area">
+                                <p class="txt_1">검색어 저장 기능이 꺼져 있습니다.</p>
+                            </div>
+                            <div class="btn_bottom">
+                                <a href="#">자동저장 켜기</a>
+                                <a href="#">도움말</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="sec3">
+            <div class="tag_area">
+                <h2 class="tit">#추천태그</h2>
+                <div id="gallery" class="swiper mySwiper">
+                    <ul class="tag_list swiper-wrapper">
+                        <li class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/search/tag_img_1.png" alt="침구">
+                                <p>#침구</p>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/search/tag_img_2.png" alt="소파">
+                                <p>#소파</p>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/search/tag_img_3.png" alt="식기">
+                                <p>#식기</p>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/search/tag_img_4.png" alt="욕실">
+                                <p>#욕실</p>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/search/tag_img_1.png" alt="반려동물">
+                                <p>#반려동물</p>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/search/tag_img_1.png" alt="조명">
+                                <p>#조명</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="btn_close">
+                <a href="#">닫 기</a>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+        <script src="./js/search.js"></script>
+</body>
+
+</html>
